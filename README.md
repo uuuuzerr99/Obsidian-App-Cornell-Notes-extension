@@ -9,6 +9,7 @@ FEATURES:
 - offline mode (JavaScript libraries needed!)
 - flexible and adaptable Layout
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
+- export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyways)
