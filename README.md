@@ -2,7 +2,7 @@ Cornell Notes plugin for Obsidian App
 
 
 **Development Status**: 🚧 Actively in development
-- not tried to use it on a tablet yet (so mobile App version will be developed too)
+- not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
 
