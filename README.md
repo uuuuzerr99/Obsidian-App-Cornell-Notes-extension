@@ -2,6 +2,7 @@ Cornell Notes plugin for Obsidian App
 
 
 **Development Status**: 🚧 Actively in development
+- dark mode support
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
@@ -23,7 +24,8 @@ Supports:
 - mermaid Diagrams
 - Textboxes
 - info callout box
-- citation box 
+- citation box
+- Tag Pills
 
 
 INSTALLATION:
