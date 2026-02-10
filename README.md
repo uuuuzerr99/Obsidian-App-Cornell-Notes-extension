@@ -8,7 +8,8 @@ Cornell Notes plugin for Obsidian App
 FEATURES:
 
 - offline mode (JavaScript libraries needed!)
-- flexible and adaptable Layout
+- flexible and adaptable Layout (US-Letter or A4)
+	• choosing the width of Cues and Notes & height of header and summary: adaptable by menu!
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 
