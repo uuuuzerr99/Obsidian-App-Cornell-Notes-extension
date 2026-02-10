@@ -23,7 +23,7 @@ Supports:
 - Lists (numbered, not numbered)
 - mermaid Diagrams
 - Textboxes
-- info callout box
+- info, error, info, warning and tip callout boxes with different colors.
 - citation box
 - Tag Pills
 
