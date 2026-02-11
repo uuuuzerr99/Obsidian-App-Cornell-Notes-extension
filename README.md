@@ -24,7 +24,7 @@ Supports:
 - Lists (numbered, not numbered)
 - mermaid Diagrams
 - Textboxes
-- info, error, info, warning and tip: no real callout boxes, with limited functionality, but with colors.
+- info, error, info, warning and tip: not a real callout boxes, with limited functionality, but with colors.
 - citation box
 - Tag Pills
 
