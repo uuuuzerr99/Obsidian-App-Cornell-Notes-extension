@@ -3,6 +3,8 @@ Cornell Notes plugin for Obsidian App
 
 **Development Status**: 🚧 Actively in development
 - dark mode support
+<img width="1918" height="1032" alt="grafik" src="https://github.com/user-attachments/assets/fb9bbba4-b7db-4775-882c-7201b821ea1f" />
+
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
