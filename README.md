@@ -3,7 +3,7 @@ Cornell Notes plugin for Obsidian App
 
 **Development Status**: 🚧 Actively in development
 - dark mode support
-<img width="1918" height="1032" alt="grafik" src="https://github.com/user-attachments/assets/fb9bbba4-b7db-4775-882c-7201b821ea1f" />
+<img width="1906" height="1037" alt="grafik" src="https://github.com/user-attachments/assets/beb68b97-7f5f-48f2-8d6d-59a04d77f48f" />
 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
@@ -16,7 +16,7 @@ FEATURES:
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 
 Supports: 
-- Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyways)
+- Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyway)
 - mhchem package and SMILES (Simplified Molecular Input Line Entry System) for chemistry
 - LaTeX for Math formula typesetting (inline too)
 - footnotes representations
@@ -37,10 +37,10 @@ I'm integrating offline mode for this plugin, so four JavaScript libraries have 
 
 JavaScript LIBRARIES:
 
-	• Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js
-	• MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
-	• Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js
-	• Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
+• Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js
+• MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
+• Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js
+• Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
 
 good to know:
 Different builds/distributions of libraries often include unique configurations. Prism library for example is used for syntax highlighting code blocks in different programming languages like Java, C, etc. - so some languages might not be inclued in the basic version of the library. But you can configure and download them on some websites, to adapt them to your own needs. You can download them from this github repository too, so they will work with the capabilities of this plugin shown in the .pdf files above. mhchem support is currently limited to MathJax's tex-svg-full build.
@@ -52,4 +52,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 9th 2026
+Switzerland, February 14th 2026
