@@ -13,9 +13,9 @@ cornell-layout:
   floatSide: left
   justifiedText: true
   hyphenationLang: de
-  codeScale: "0.7"
-  mermaidScale: "0.3"
-  tableScale: "0.8"
+  codeScale: "0.75"
+  mermaidScale: "0.35"
+  tableScale: "0.75"
   elementSpacing: "2"
 ---
 
@@ -49,15 +49,14 @@ We have comment blocks too...
 
 **Escaping Markdown Syntax for:**  \*.file # ~
 
-Tags: #tag
+Tag-Pills: #tag
 
 Obsidian-Syntax: https://help.obsidian.md/syntax
 ```textbox
 This is a simple Textbox
 ```
 
-
-
+%% ___ %%
 **Script-size:**
  $$\scriptsize
 \begin{vmatrix}a & b\\
@@ -78,7 +77,7 @@ $$ \large
 + \frac{\partial^2 u}{\partial z^2} \right)
 $$
 #### <font color="#ff0000">How to Install? → <mark style="background:#40a9ff">visit last page!</mark></font>
-- This markdown document is typeset for A4 page dimensions
+- This markdown document is typeset for A4 page dimensions, rearrange content for US Letter!
 ---
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue.
 
@@ -126,8 +125,6 @@ H<sub>2</sub>O (pure water)
 
 
 
-
-
 - **Supported: .gif .webp .bmp & .svg**
 ![[Animation.gif|130]]
 ![[WEBP_Image.webp|150]]
@@ -139,6 +136,11 @@ H<sub>2</sub>O (pure water)
 - 2.5 inch = 63.5 mm (cues width)
 - 6 inch = 152.4 mm (notes width)
 - 2 inch = 50.8 mm (summary height)
+A4 is ~ 3.5% larger in area than US Letter.
+
+##### Suggestions for A4 dimensions:
+- 60-70mm cues width
+- 45-55mm summary height
 [^4]: according to Walter Pauk (page format: US Letter)
 [^5]: Euler identity
 
@@ -148,7 +150,8 @@ H<sub>2</sub>O (pure water)
 dolor sit <u>amet</u>, *consetetur* ~~sadipscing~~ elitr, sed diam ==nonumy== eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 
 
-> text citation Lorem ipsum dolor sit amet, consetetur  sadipscing  elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril ==delenit== augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+> text citation Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam. 
+> • tempor ui blandit praesent luptatum zzril ==delenit== augue duis dolore invidunt ut labore et (A. de Saint-Exupéry)
 
 This is an inline math expression $e^{2i\pi} = 1$.
 
@@ -166,7 +169,7 @@ This is an inline math expression $e^{2i\pi} = 1$.
 | inline        | + .gif   |   mermaid.js.org |                     |
 **Table 2:**  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et aliquyam erat dolor sit amet, consetetur praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat sadipscing.
 ___
-```java title:"long filename.cpp"
+```java title:"filename.java"
 public class TreeNode<T> {
     T data;
     TreeNode<T> left;
@@ -181,6 +184,7 @@ public class TreeNode<T> {
 ```
 **Java Code:**
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, dolore aliquyam sed diam voluptua.
+
 
 ```mermaid
 quadrantChart
@@ -198,17 +202,13 @@ quadrantChart
     Campaign E: [0.40, 0.34]
     Campaign F: [0.35, 0.78]
 ```
-
-**Mermaid-Diagram:** [Mermaid Diagrams Syntax](https://mermaid.js.org/syntax/gantt)
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus. 
-%%  COc(c1)cccc1C#N  %%
+**Mermaid-Diagram:** [Mermaid Diagram Syntax](https://mermaid.js.org/syntax/gantt)
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus. %% ___ %% 
+%%  COc(c1)cccc1C#N  CC(=O)OC1=CC=CC=C1C(=O)O %%
 ```smiles|0.3
 COc(c1)cccc1C#N
 ```
-
-**SMILES Chemistry Molecules Graphics:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua.
-
+**SMILES Chemistry Molecules Graphics:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 This is a simple footnote[^1]. This is a another footnote[^2]. This is a third footnote[^3].
 [^1]: This is the referenced text.
 [^2]: This is the referenced text too.
@@ -272,20 +272,24 @@ consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent l
 ![[JPG_Image.jpg|280]]
 **Picture 1:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. **Picture 2:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut aliquyam erat, sed diam voluptua. 
 ___
-> [!info]Lorem ipsum dolor sit amet, consetetur  ~~sadipscing~~  elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril ==delenit== augue duis dolore invidunt ut labore et *dolore* magna aliquyam erat, sed diam voluptua.
+> [!info]For: error (red), info (blue), warning (yellow) and tip (green)
+> - eirmod tempor ui blandit praesent luptatum zzril ==delenit== augue dolore invidunt ut 
+> 	- rabore et *dolore* magna ~~sadipscing~~  aliquyam erat, sed diam voluptua.
+> labore eunt deus optima ipsum.
 
 ## How to install an commercial-community plugin, you bought?
-- [ ] Create folder "cornell-notes" & unpack the .zip into it: main.js, styles.css, data.json & manifest.json
-- [ ] Navigate to the Obsidian App plugins folder structure and copy folder with those 4 files in it to: "C:\...\Obsidian\Data\Obsidian Vault\.obsidian\plugins\cornell-notes" 
-- [ ] In Obdisian App Settings: activate community plugins + in the installed section: activate this "Cornell Notes" extension. Restart Obsidian!
+- [ ] Create folder "cornell-notes" & unpack the .zip into it (4 files): main.js, styles.css, data.json & manifest.json
+- [ ] Download 4 .js files here [go to README section:](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension) now copy them into folder "cornell-notes"
+- [ ] Copy folder with those 8 files, navigate to the Obsidian App plugins folder structure and  put it into: "C:\...\Obsidian\Data\Obsidian Vault\.obsidian\plugins\cornell-notes" 
+- [ ] In Obsidian App Settings: activate community plugins + in the installed section: activate this "Cornell Notes" extension. Now restart Obsidian!
 - Recommended Tutorial: [Brandon Boswell - How to Manually Install an Obsidian Plugin](https://www.youtube.com/watch?v=ffGfVBLDI_0)
 ### get files showcasing the capabilities & syntax of the extension → use it:
-- [ ] [Download 3 files:](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension) PNG_Image.png, JPG_Image.jpg and Cornell_Note_example.md
-- [ ] Paste them into your vault, same folder:  "C:\...\Obsidian\Data\Obsidian Vault\my_files" 
+- [ ] [Download 7 files:](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension) Animation.gif,  BMP_Image.bmp, WEBP_Image.webp, PNG_Image.png, JPG_Image.jpg, SVG_Image.svg,  and Cornell_Note_example.md 
+- [ ] Paste them into your vault, same folder:  "C:\...\Obsidian\Data\Obsidian Vault\my_files_here" 
 ___
 **This Obsidian App extension for Cornell Notes is supporting:**
 - [x] **A4** (210 by 297 mm) which was used to create this note / .pdf file and
-- [x] **US Letter** (8.5 by 11 inches)
+- [x] **US Letter** (8.5 by 11 inches [216 x 279mm])
 
 **And it has some special tricks up its sleeve...**
 - It's able to **create .pdf files with textlayer** or without  (**via Save html** or Print / PDF) .
@@ -293,14 +297,14 @@ ___
 
 ## Summary %% Notes (reflect & review) %%
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 - This is an inline math expression $e^{2i\pi} = 1$.
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam. 
 --- 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit! 
-![[JPG_Image.jpg|100]] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit!
+![[JPG_Image.jpg|70]] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
 ---
 amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 - This is an inline math expression $e^{2i\pi} = 1$[^5].
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi amat.
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi amat
