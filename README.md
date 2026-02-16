@@ -24,7 +24,7 @@ Supports:
 - tables
 - Checkboxes
 - Lists (numbered, not numbered)
-- mermaid Diagrams
+- mermaid Diagrams (https://mermaid.js.org/syntax/examples.html)
 - Textboxes
 - info, error, info, warning and tip: are not original Obsidian callout boxes, with limited functionality, but with colors.
 - citation box
@@ -33,7 +33,7 @@ Supports:
 
 INSTALLATION:
 
-I'm integrating offline mode for this plugin, so four JavaScript libraries have to be downloaded so far. You put them in the  Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
+I'm integrating offline mode for this plugin, that's why four JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
 
 JavaScript LIBRARIES:
 
@@ -52,4 +52,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 14th 2026
+Switzerland, February 16th 2026
