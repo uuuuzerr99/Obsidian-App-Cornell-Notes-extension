@@ -19,27 +19,32 @@ cornell-layout:
   elementSpacing: "2"
 ---
 
-## Header 
+# Header 
 
 ## *Date:* xx-yy-zzzz  | *Class:* Computer Science 101 | *@Topic:* Supported Markdown Structures
 
-## Cues %% Cues (reduce & recall) %%
+# Cues %% Cues (reduce & recall) %%
 
 Lorem ipsum dolor justo duo dolores et ea rebum. Dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent.
+
 
 
 - [ ] Test: consetetur sadipscing elitr
 	- [ ] Test 2
 
+
+
 1. Do this
 2. Do that 
 
 
+
 - nulla facilisi
 	- praesent luptatum erat, sed
-![[JPG_Image.jpg|130]]
+
+![[JPG_Image.jpg|220]]
 **.jpg (upper image) and .png file (below)**
-![[PNG_Image.png|225]]
+![[PNG_Image.png|220]]
 %% this is an inline comment, you can't see in the Cornell note. %%
 %% 
 We have comment blocks too... 
@@ -78,8 +83,28 @@ $$ \large
 $$
 #### <font color="#ff0000">How to Install? → <mark style="background:#40a9ff">visit last page!</mark></font>
 - This markdown document is typeset for A4 page dimensions, rearrange content for US Letter!
----
+
+--- %% Begin Cues Page 2 %%
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue.
+
+
+ 
+<font color="#e36c09">Vertical positioning of cues content is essential!</font>
+1) textwrapping can be deactivated locally in the cues section. Just use 2 empty markdown lines!
+2) use 3+ empty lines to position content vertically in the cues section.
+ 
+![[SVG_Image.svg|120]]
+This pic named SVG_Image.svg follows global textwrapping rules in the cues section of page 2, by putting 0 empty lines after an small picture object. <u>Compare:</u> with markdown file and identical .svg file in the cues section of page 2 and 3. 
+ 
+
+
+
+
+
+
+
+
+
 
 ### Chemistry Formulas:
 
@@ -89,12 +114,16 @@ $\large \ce{A ->[H2O] B}$
 
 $\large \ce{A-B=C#D}$ chem. bonding
 
-$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
-
-
+$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$ 
+ 
 **without LaTeX:**
 a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 H<sub>2</sub>O (pure water)
+
+
+
+
+
 
 # This is a heading 1
 ## This is a heading 2
@@ -103,7 +132,7 @@ H<sub>2</sub>O (pure water)
 ##### This is a heading 5
 ###### This is a heading 6
 
- --- 
+ --- %% Begin Cues Page 3 %%
  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy est eirmod tempor ui blandit praesent luptat zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 
@@ -112,24 +141,14 @@ H<sub>2</sub>O (pure water)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 - **Supported: .gif .webp .bmp & .svg**
-![[Animation.gif|130]]
-![[WEBP_Image.webp|150]]
-![[BMP_Image.bmp|150]]
-![[SVG_Image.svg|150]]
+![[Animation.gif|220]]
+![[WEBP_Image.webp|220]]
+![[BMP_Image.bmp|220]]
+![[SVG_Image.svg|120]]
+
+
+Compare same 120px image from markdown page 2 Cues section SVG_Image.svg: textwrapping is now locally <u>de</u>activated while being activated globally! Gives you maximum control over layout.
 
 ##### Cornell Note Sheet dimensions[^4] :
 1 inch = 2.54 cm = 25.4 mm
@@ -144,7 +163,7 @@ A4 is ~ 3.5% larger in area than US Letter.
 [^4]: according to Walter Pauk (page format: US Letter)
 [^5]: Euler identity
 
-## Notes %% Notes (record) %%
+# Notes %% Notes (record) %%
 
 **Lorem ipsum**
 dolor sit <u>amet</u>, *consetetur* ~~sadipscing~~ elitr, sed diam ==nonumy== eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -159,14 +178,14 @@ This is an inline math expression $e^{2i\pi} = 1$.
 | Math Formulas | Pictures | Mermaid Diagrams | Codeblocks |
 | ------------: | -------- | ---------------- | :--------: |
 | LaTeX         | 5 types  |  different types | syntax highlighting |
-| inline        | + .gif   |  mermaid.js.org  |                     | 
+| + inline      | + .gif   |  mermaid.js.org  |                     | 
 **Table 1:** Eirmod tempor ui blandit praesent labore magna aliquyam erat, sed diam tempor ui blandit.
 %% ___ %%      %% this comment on the left side: "%% ___ %%" is not part of traditional Obsidian Markdown. It creates an invisible line in the Cornell note Page View which helps with text alignment issues, if the text in the first table above is shorter. So that the following text can start at same height, even if there is free space above. %%
 
 | Math Formulas | Pictures | Mermaid Diagrams | Codeblocks |
 | :------------ | -------- | ---------------: | :--------: |
 | LaTeX         | 5 types  |  different types | syntax highlighting |
-| inline        | + .gif   |   mermaid.js.org |                     |
+| + inline      | + .gif   |   mermaid.js.org |                     |
 **Table 2:**  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et aliquyam erat dolor sit amet, consetetur praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat sadipscing.
 ___
 ```java title:"filename.java"
@@ -214,9 +233,9 @@ This is a simple footnote[^1]. This is a another footnote[^2]. This is a third f
 [^2]: This is the referenced text too.
 [^3]: This is the last referenced text.
 
----
+--- %% Begin Notes Page 2 %%
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, uptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 ![[PNG_Image.png|210]]
 **Picture 1:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 %% ___ %% 
@@ -266,11 +285,13 @@ consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent l
 ###### This is a heading 6
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam 
 
----
-**Picture 1:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+--- %% Begin Notes Page 3 %%
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 ![[PNG_Image.png|320]]
 ![[JPG_Image.jpg|280]]
-**Picture 1:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. **Picture 2:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut aliquyam erat, sed diam voluptua. 
+**Picture 1 | .png:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. 
+
+**Picture 2 | .jpg:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut aliquyam erat, sed diam voluptua.
 ___
 > [!info]For: error (red), info (blue), warning (yellow) and tip (green)
 > - eirmod tempor ui blandit praesent luptatum zzril ==delenit== augue dolore invidunt ut 
@@ -295,16 +316,16 @@ ___
 - It's able to **create .pdf files with textlayer** or without  (**via Save html** or Print / PDF) .
   <u>**extra info**:</u> A .pdf file **with text layer** has embedded, selectable, searchable text, makes it "born-digital" or OCR'd for full functionality, while a .pdf **without a textlayer** is essentially an image.
 
-## Summary %% Notes (reflect & review) %%
+# Summary %% Notes (reflect & review) %%
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 - This is an inline math expression $e^{2i\pi} = 1$.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam. 
---- 
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor erat, sed diam voluptua.
+---  %% Begin Summary Page 2 %%
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit! 
-![[JPG_Image.jpg|70]] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+![[JPG_Image.jpg|70]] Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
----
-amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+---  %% Begin Summary Page 3 %%
+Amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 - This is an inline math expression $e^{2i\pi} = 1$[^5].
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi amat
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi amat!
