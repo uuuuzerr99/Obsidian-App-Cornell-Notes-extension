@@ -14,7 +14,7 @@ FEATURES:
 - choosing the width of Cues and Notes & height of header and summary: adaptable by menu!
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
-- cues content: more controll of vertical positioning (alignment with corresponding notes content)
+- cues content: more control of vertical positioning (alignment with corresponding notes content)
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyway)
