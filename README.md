@@ -8,7 +8,7 @@ Cornell Notes plugin for Obsidian App
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
-
+- Zoom: between 50% up to 100%
 - offline mode (JavaScript libraries needed!)
 - flexible and adaptable Layout (US-Letter or A4)
 - choosing the width of Cues and Notes & height of header and summary: adaptable by menu!
