@@ -3,7 +3,8 @@ Cornell Notes plugin for Obsidian App
 
 **Development Status**: 🚧 Actively in development
 - dark mode support
-<img width="1906" height="1037" alt="grafik" src="https://github.com/user-attachments/assets/beb68b97-7f5f-48f2-8d6d-59a04d77f48f" />
+<img width="1912" height="1033" alt="grafik" src="https://github.com/user-attachments/assets/e92597ef-4a5d-47e8-a7ce-d73537d1665f" />
+
 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
@@ -14,6 +15,7 @@ FEATURES:
 - choosing the width of Cues and Notes & height of header and summary: adaptable by menu!
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
+- cues content: more controll of vertical positioning (alignment with corresponding notes content)
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyway)
@@ -52,4 +54,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 16th 2026
+Switzerland, February 17th 2026
