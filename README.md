@@ -5,7 +5,6 @@ Cornell Notes plugin for Obsidian App
 - dark mode support
 <img width="1912" height="1033" alt="grafik" src="https://github.com/user-attachments/assets/e92597ef-4a5d-47e8-a7ce-d73537d1665f" />
 
-
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
@@ -19,6 +18,7 @@ FEATURES:
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyway)
+- code blocks, with syntax highlighting for lots of programming languages
 - mhchem package and SMILES (Simplified Molecular Input Line Entry System) for chemistry
 - LaTeX for Math formula typesetting (inline too)
 - footnotes representations
