@@ -12,7 +12,7 @@ cornell-layout:
   textWrapping: true
   floatSide: left
   justifiedText: true
-  hyphenationLang: de
+  hyphenationLang: en
   codeScale: "0.75"
   mermaidScale: "0.35"
   tableScale: "0.75"
@@ -89,21 +89,19 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 
  
-<font color="#e36c09">Vertical positioning of cues content is essential!</font>
-1) textwrapping can be deactivated locally in the cues section. Just use 2 empty markdown lines!
-2) use 3+ empty lines to position content vertically in the cues section.
+<font color="#e36c09">Vertical content positioning in the cues section is essential!</font>
+1) use 3+ empty lines to position content vertically in the cues section.
+2) textwrapping can be deactivated locally in the cues section. Just use 2 empty markdown lines!
+
  
 ![[SVG_Image.svg|120]]
-This pic named SVG_Image.svg follows global textwrapping rules in the cues section of page 2, by putting 0 empty lines after an small picture object. <u>Compare:</u> with markdown file and identical .svg file in the cues section of page 2 and 3. 
+Made image small by using [["Image" |120px]], so global textwrapping rules are applied in the Cues area. This is achieved by inserting zero blank lines after image.
+Compare this behavior with an identical .svg file and this [Markdown file](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Cornell_Note_example.md): 
  
+![[SVG_Image.svg|120]]
 
 
-
-
-
-
-
-
+textwrapping is now <u>de</u>activated locally (by adding 2 empty markdown lines) while being activated globally! It's simple, intuitive and gives you maximum layout control.
 
 
 ### Chemistry Formulas:
@@ -119,8 +117,6 @@ $C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
 **without LaTeX:**
 a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 H<sub>2</sub>O (pure water)
-
-
 
 
 
@@ -145,10 +141,11 @@ H<sub>2</sub>O (pure water)
 ![[Animation.gif|220]]
 ![[WEBP_Image.webp|220]]
 ![[BMP_Image.bmp|220]]
-![[SVG_Image.svg|120]]
+![[SVG_Image.svg|220]]
 
 
-Compare same 120px image from markdown page 2 Cues section SVG_Image.svg: textwrapping is now locally <u>de</u>activated while being activated globally! Gives you maximum control over layout.
+
+
 
 ##### Cornell Note Sheet dimensions[^4] :
 1 inch = 2.54 cm = 25.4 mm
@@ -227,7 +224,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ```smiles|0.3
 COc(c1)cccc1C#N
 ```
-**SMILES Chemistry Molecules Graphics:** Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+[**SMILES Chemistry Molecules Graphics:**](https://hunterheidenreich.com/notes/computational-chemistry/molecular-representations/smiles/) Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor ui blandit praesent luptatum zzril delenit augue duis dolore invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 This is a simple footnote[^1]. This is a another footnote[^2]. This is a third footnote[^3].
 [^1]: This is the referenced text.
 [^2]: This is the referenced text too.
