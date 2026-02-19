@@ -49,7 +49,7 @@ Different builds/distributions of libraries often include unique configurations.
 
 Automatic saving of settings for each individual note & Obsidian (dark mode) with plugin light mode:
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation2.gif)
-Export to .pdf without (via Print / PDF) an with textlayer (via .html and print to .pdf):
+Export to .pdf with textlayer (via .html and print to .pdf) and without textlayer (via Print / PDF):
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation.gif)
 Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
