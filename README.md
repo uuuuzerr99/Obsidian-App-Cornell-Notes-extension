@@ -28,7 +28,7 @@ Supports:
 - Lists (numbered, not numbered)
 - mermaid Diagrams (https://mermaid.js.org/syntax/examples.html)
 - Textboxes
-- info, error, info, warning and tip: are not original Obsidian callout boxes, with limited functionality, but with colors.
+- callout boxes: info, error, warning and tip: are not the original Obsidian callout boxes, with limited functionality, but with colors.
 - citation box
 - Tag Pills
 
@@ -54,4 +54,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 17th 2026
+Switzerland, February 19th 2026
