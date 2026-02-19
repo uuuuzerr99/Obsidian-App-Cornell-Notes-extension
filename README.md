@@ -49,6 +49,8 @@ Different builds/distributions of libraries often include unique configurations.
 
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation2.gif)
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation.gif)
+Obsidian (light mode) with Plugin dark mode:
+![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
 
 Images:
 All sample images have been generated with my prompts by Gemini AI.
