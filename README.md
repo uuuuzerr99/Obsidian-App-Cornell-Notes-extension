@@ -45,11 +45,11 @@ JavaScript LIBRARIES:
 - Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
 
 good to know:
-Different builds/distributions of libraries often include unique configurations. Prism library for example is used for syntax highlighting code blocks in different programming languages like Java, C, etc. - so some languages might not be inclued in the basic version of the library. But you can configure and download them on this:
+Different builds/distributions of libraries often include unique configurations. Prism library for example is used for syntax highlighting code blocks in different programming languages like Java, C, etc. - so some languages might not be inclued in the basic version of the library. But you can configure and download them on this or other websites:
 - https://prismjs.com/download#themes=prism&languages=markup+css+clike+javascript - with your programming languages included, just select and download
-- https://docs.mathjax.org/en/latest/web/start.html#mathjax-components - with mhchem Package included in full version further info: https://mhchem.github.io/MathJax-mhchem/ 
+- https://docs.mathjax.org/en/latest/web/start.html#mathjax-components - with mhchem Package (needed for the usage of chemistry notation: example .md file) included in full version - further info: https://mhchem.github.io/MathJax-mhchem/ 
 
-or other websites, to adapt them to your own needs. You can download them from this github repository too, so they will work with the capabilities of this plugin shown in the .pdf files above. mhchem support is currently limited to MathJax's tex-svg-full build.
+to adapt them to your own needs. You can download them from this github repository too, so they will work with the capabilities of this plugin shown in the .pdf files above. mhchem support is currently limited to MathJax's tex-svg-full build.
 
 Automatic saving of settings for each individual note & Obsidian (dark mode) with plugin light mode:
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation2.gif)
