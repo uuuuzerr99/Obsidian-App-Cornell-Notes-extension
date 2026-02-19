@@ -47,8 +47,9 @@ JavaScript LIBRARIES:
 good to know:
 Different builds/distributions of libraries often include unique configurations. Prism library for example is used for syntax highlighting code blocks in different programming languages like Java, C, etc. - so some languages might not be inclued in the basic version of the library. But you can configure and download them on some websites, to adapt them to your own needs. You can download them from this github repository too, so they will work with the capabilities of this plugin shown in the .pdf files above. mhchem support is currently limited to MathJax's tex-svg-full build.
 
-Auto saving of settings [for every note individually] & Obsidian (dark mode) with plugin light mode:
+Automatic saving of settings for each individual note & Obsidian (dark mode) with plugin light mode:
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation2.gif)
+Export to .pdf without (via Print / PDF) an with textlayer (via .html and print to .pdf):
 ![](https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Animation.gif)
 Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
