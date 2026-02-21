@@ -2,12 +2,11 @@ Cornell Notes plugin for Obsidian App
 
 
 **Development Status**: 🚧 Actively in development
-- dark mode support
-<img width="1912" height="1033" alt="grafik" src="https://github.com/user-attachments/assets/e92597ef-4a5d-47e8-a7ce-d73537d1665f" />
-
+- Anki Export function??? 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
+- dark mode support
 - Zoom function: from 50% up to 100%
 - offline mode (JavaScript libraries needed!)
 - flexible and adaptable Layout (US-Letter or A4)
@@ -62,4 +61,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 19th 2026
+Switzerland, February 21th 2026
