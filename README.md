@@ -2,7 +2,9 @@ Cornell Notes plugin for Obsidian App
 
 
 **Development Status**: 🚧 Actively in development
-- Anki Export function??? 
+- Anki Export function???
+<img width="712" height="569" alt="grafik" src="https://github.com/user-attachments/assets/a94baec4-fa09-4c28-9b5e-3c3b918ddcf2" />
+
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 FEATURES:
@@ -38,7 +40,7 @@ I'm integrating offline mode for this plugin, that's why four JavaScript librari
 
 JavaScript LIBRARIES:
 
-- Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js
+- Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js (or as _mermaid.min.js in Anki: needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
 - Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js
 - Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
@@ -61,4 +63,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 21th 2026
+Switzerland, February 22th 2026
