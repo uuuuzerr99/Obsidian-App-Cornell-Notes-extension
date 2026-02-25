@@ -2,7 +2,7 @@ Cornell Notes plugin for Obsidian App
 
 
 **Development Status**: 🚧 Actively in development
-- zotero: Tag-Pill to zotero Tag-Export function, a comfortable workaround is needed, that you can Tag your .pdf files in Zotero automatically to find your Cornell note fast, if it contains Tag-Pills. | workaround: Zotero doesn't support keyword import out of pdf files! - (will be available only for textlayer .pdf's created via Save .html !!!)
+- zotero: Tag-Pill to zotero Tag-Export function, a comfortable workaround is needed, that you can Tag your .pdf files in Zotero automatically to find your Cornell note fast, if it contains Tag-Pills. | @workaround: Zotero doesn't support keyword import out of pdf files! - (workaround will be available only for textlayer .pdf's created via Save .html !!!)
 - Anki Export function???
 <img width="712" height="569" alt="grafik" src="https://github.com/user-attachments/assets/a94baec4-fa09-4c28-9b5e-3c3b918ddcf2" />
 
