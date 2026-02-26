@@ -43,7 +43,8 @@ JavaScript LIBRARIES:
 
 - Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js (or as _mermaid.min.js in Anki: needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
-- Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js
+- Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
+  | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
 - Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
 
 good to know:
@@ -64,4 +65,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 25th 2026
+Switzerland, February 26th 2026
