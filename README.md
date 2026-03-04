@@ -1,9 +1,8 @@
 Cornell Notes plugin for Obsidian App
 
 
-**Development Status**: 🚧 Actively in development
-- zotero: You don’t want to double the effort importing tag-pills you already created in Obsidian PDF Cornell notes while importing it in Zotero — especially when you want your collection of Cornell Note files to be stored in zotero and need those Tags for future searches? Automate it: import a .ris entry (with file_title.md, author, Tags, date) into Zotero with a single shortcut, then attach the Obsidian plugin created .pdf file. Needs seconds, instead of minutes. This workaround is useful, as Zotero doesn’t allow imports of tags from keyword tagged .pdf files.
-- Anki Export function: is working quite ok, but there's still some more work to be done!
+**Development Status**: 🚧 Actively in development phase:
+- Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes. And make professionals even faster and more productive!
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
 ![screenshot 759](https://github.com/user-attachments/assets/9886d65f-130a-4a7c-bedc-c8e727e5e0c3)
@@ -33,6 +32,8 @@ Supports:
 - callout boxes: info, error, warning and tip: are not the original Obsidian callout boxes, with limited functionality, but with colors.
 - citation box
 - Tag Pills
+- Anki Export function: 
+- Zotero Export function: You don’t want to double the effort importing tag-pills you already created in Obsidian PDF Cornell notes while importing it in Zotero — especially when you want your collection of Cornell Note files to be stored in zotero and need those Tags for future searches? Automate it: import a .ris entry (with file_title.md, author, Tags, date) into Zotero with a single shortcut, then attach the Obsidian plugin created .pdf file. Needs seconds, instead of minutes. This workaround is useful, as Zotero doesn’t allow imports of tags from keyword tagged .pdf files.
 
 
 INSTALLATION:
