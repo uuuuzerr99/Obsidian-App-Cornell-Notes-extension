@@ -4,8 +4,8 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 Actively in development phase:
 - Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes. And make professionals even faster and more productive!
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
+<img width="1538" height="992" alt="grafik" src="https://github.com/user-attachments/assets/3bba1972-7d3e-48e3-a657-59af9c4076ca" />
 
-![screenshot 759](https://github.com/user-attachments/assets/9886d65f-130a-4a7c-bedc-c8e727e5e0c3)
 
 FEATURES:
 - dark mode support
@@ -29,7 +29,8 @@ Supports:
 - Lists (numbered, not numbered)
 - mermaid Diagrams (https://mermaid.js.org/syntax/examples.html)
 - Textboxes
-- callout boxes: info, error, warning and tip: are not the original Obsidian callout boxes, with limited functionality, but with colors.
+- callout boxes: now all are supported (not the original Obsidian callout boxes, with limited functionality, but with colors)
+- callout boxes, modifiable: able to modify Title & color (Hex color notation: ##FF0000 is red) https://www.color-hex.com/ > [!custom|#ff4511] My callout heading
 - citation box
 - Tag Pills
 - Anki Export function: 
@@ -66,4 +67,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, February 26th 2026
+Switzerland, March 7th 2026
