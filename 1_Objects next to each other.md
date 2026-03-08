@@ -1,6 +1,6 @@
 ---
 cornell-layout:
-  pageSize: A4
+  pageSize: Letter
   margin: "2"
   headerHeight: "7"
   cuesWidth: "64"
@@ -13,8 +13,8 @@ cornell-layout:
   floatSide: left
   justifiedText: true
   hyphenationLang: de
-  codeScale: "0.85"
-  mermaidScale: "0.3"
+  codeScale: "0.9"
+  mermaidScale: "0.8"
   tableScale: "0.8"
   elementSpacing: "2"
 ---
@@ -38,7 +38,7 @@ c & d
 $$
 </div>
 <div>
-![[BMP_Image.bmp|150]]
+![[BMP_Image.bmp|177]]
 </div>
 <div>
 | Math Formulas | Pictures | Mermaid Diagrams | Codeblocks    |
@@ -64,15 +64,13 @@ public class TreeNode<T> {
 }
 ```
 </div>
-<div>And positioning some text next to 
-the two objects. For optimal use of 
-space.
+<div style="width: 35ch;"><u>And positioning</u> some text next to the two objects. For optimal use of space. 
 
 So let's look if it sums up to you: 
 $\sum_{i=1}^n i^2 = \frac{1}{2} n (n+1)$
 </div>
 <div>
-```mermaid|0.445
+```mermaid
 quadrantChart
     title more @: mermaid.js.org/syntax/gantt
     x-axis Low Reach --> High Reach
@@ -93,31 +91,28 @@ quadrantChart
 
 <div class="cornell-flex-row">
 <div>
-![[PNG_Image.png|168]]
+![[PNG_Image.png|175]]
 </div>
 <div>
-![[JPG_Image.jpg|168]]
+![[JPG_Image.jpg|175]]
 </div>
 <div>
-![[Animation.gif|168]]
+![[Animation.gif|180]]
 </div>
 </div>
 
 <div class="cornell-flex-row">
-<div>
+<div style="width: 30ch;">
 **Pic_1:** 
-You can do it with text too! You've 
-got to try.
+You can do it with text too! You have got to try.
 </div>
-<div>
+<div style="width: 34ch;">
 **Pic_2:** 
-Just some more text. The align-
-ment is more difficult!
+Just some more text. The align- ment is more difficult!
 </div>
-<div>
+<div style="width: 44ch;">
 **Pic_3:** 
-It's not perfect, but in the end it 
-will work most of the time.
+It's not perfect, but in the end it will work most of the time.
 </div>
 </div>
 
@@ -152,30 +147,11 @@ here:
 # Summary
 
 <div class="cornell-flex-row">
-<div>**Sum_A:** 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
-gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet. Lorem 
-ipsum dolor sit amet, consetetur sadip.
+<div style="width: 71ch;">**Sum_A:** 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd.
 </div>
-<div>**Sum_B:** 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-nonumy eirmod tempor invidunt ut labore et dolore magna 
-aliquyam erat, sed diam voluptua. At vero eos et accusam et justo 
-duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-magna aliquyam erat, sed diam voluptua.
-</div>
-</div>
-
----
-<div class="cornell-flex-row">
-<div>
-Content column 1...
-</div>
-<div>
-Content column 2...
+<div style="width: 68ch;">**Sum_B:** 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
 </div>
 </div>
 
