@@ -18,7 +18,7 @@ FEATURES:
 - cues content: more control of vertical positioning (alignment with corresponding notes content)
 
 Supports: 
-- Obsidian App, Desktop version only (you may need a big screen for working with it comfortably anyway)
+- Obsidian App, Desktop version only (you may need a laptop screen for working with it comfortably anyway)
 - code blocks, with syntax highlighting for lots of programming languages
 - mhchem package and SMILES (Simplified Molecular Input Line Entry System) for chemistry
 - LaTeX for Math formula typesetting (inline too)
