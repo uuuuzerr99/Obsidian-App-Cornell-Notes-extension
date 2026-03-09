@@ -25,6 +25,8 @@ cornell-layout:
 
 # Cues 
 
+**Sometimes you want or need to place all kinds of objects (text, images, code, formulas [math or chemistry], tables, Mermaid diagrams) side by side in columns. These options are also available here. The necessary code can be implemented quickly and conveniently using shortcuts or by clicking a button.** 
+
 
 # Notes 
 
@@ -144,11 +146,10 @@ here:
 # Summary
 
 <div class="cornell-flex-row">
-<div style="width: 71ch;">**Sum_A:** 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd.
+<div style="width: 68ch;">**Summary A:** 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+nonumy tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 </div>
-<div style="width: 68ch;">**Sum_B:** 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo. 
-</div>
-</div>
+<div style="width: 76ch;">**Summary B:** 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo  duo dolores et ea rebum. 
 
