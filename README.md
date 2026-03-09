@@ -18,7 +18,7 @@ FEATURES:
 - cues content: more control of vertical positioning (alignment with corresponding notes content)
 - possibility to create columns: usecase → sometimes you want or need 2 or 3 objects next to each other (text, code, picture or other types of content) and control the width to your needs too.
 - Typographie: font sizes, fonts, justified text, wrap content, text floating left or right.
-- page formats & geometry: portrait A4 or US-Letter
+- page formats: portrait only
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a laptop sized screen for working with it comfortably anyway)
