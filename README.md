@@ -29,8 +29,8 @@ Supports:
 - Lists (numbered, not numbered)
 - mermaid Diagrams (https://mermaid.js.org/syntax/examples.html)
 - Textboxes
-- callout boxes: now all are supported (not the original Obsidian callout boxes, with limited functionality, but with colors)
-- callout boxes, modifiable: able to modify Title & color (Hex color notation: ##FF0000 is red) https://www.color-hex.com/ > [!custom|#ff4511] My callout heading
+- callout boxes: now all 12 Obsidian types are supported (not the original Obsidian callout boxes, with limited functionality)
+- callout boxes, custom: able to modify Title & color (Hex color notation: #FF0000 is red) https://www.color-hex.com/ > [!custom|#FF0000] My callout heading
 - citation box
 - Tag Pills
 - Anki Export function: 
@@ -67,4 +67,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, March 7th 2026
+Switzerland, March 9th 2026
