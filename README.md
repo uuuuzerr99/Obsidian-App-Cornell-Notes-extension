@@ -16,6 +16,7 @@ FEATURES:
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 - cues content: more control of vertical positioning (alignment with corresponding notes content)
+- possibility to create columns: usecase → sometimes you want or need 2 or 3 objects next to each other (text, code, picture or other types of content)
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a laptop sized screen for working with it comfortably anyway)
