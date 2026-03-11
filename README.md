@@ -6,7 +6,7 @@ Cornell Notes plugin for Obsidian App
 - Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes. And make professionals even faster and more productive!
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 
-⚠️ Don't use .pdf viewer of your browser... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
+⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
 <img width="1538" height="992" alt="grafik" src="https://github.com/user-attachments/assets/3bba1972-7d3e-48e3-a657-59af9c4076ca" />
 
@@ -74,4 +74,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, March 9th 2026
+Switzerland, March 11th 2026
