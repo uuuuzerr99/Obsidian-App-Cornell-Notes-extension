@@ -29,7 +29,7 @@ xx-yy-zzzz
 |Science 101
 </div>
 <div>**| Topic:**
-| Some more examples for supported markdown structures
+| Some more examples for supported markdown structures [Letter format]
 </div>
 </div>
 
@@ -140,9 +140,10 @@ The molecular formula of Pantoprazole is created with $\LaTeX$ code and the mhch
 To get codes for both use a search engine with search terms: "Pantoprazole SMILES" and "Pantoprazole mhchem LaTeX". It's much faster and more accurate then to create it yourself. Copy & paste - it's done! For not so well known molecules ask your LLM.
 
 **A hint for beginners in bioinformatics, chemistry, biology and medicine:** 
-Comparing the molecular formula count of atoms with the picture and SMILES code you might wonder why some atoms like hydrogen (H) or carbon atoms (C) are often missing? Here's why: SMILES simplifies molecular structures by omitting atoms. **In short, "missing atoms" in SMILES code from chemical databases and pictures are not errors – they are  simplifications based on well-defined chemical rules and conventions**. These apply to other atoms too: nitrogen, oxygen, sulfur, halogens and even metals as well. All depends on conventions used in chemical databases or software interpreting the notation. Understanding these conventions is crucial for accurately interpreting SMILES strings. Getting code online from [databases](https://pubchem.ncbi.nlm.nih.gov/#query=pantoprazole] 
-, Large Language Models (LLM's) or search engines is 99% reliable. So you really don't have to create the code by yourself on a regular base just to get your beautiful Cornell notes done.
+Comparing the molecular formula count of atoms with the picture and SMILES code you might wonder why some atoms like hydrogen (H) or carbon atoms (C) are often missing? Here's why: SMILES simplifies molecular structures by omitting atoms. **In short, "missing atoms" in SMILES code from chemical databases and pictures are not errors – they are  simplifications based on well-defined chemical rules and conventions**. These apply to other atoms too: nitrogen, oxygen, sulfur, halogens and even metals as well. All depends on conventions used in chemical databases or software interpreting the notation. Understanding these conventions is crucial for accurately interpreting SMILES strings. Getting code online from [databases](https://pubchem.ncbi.nlm.nih.gov/#query=pantoprazole), Large Language Models (LLM's) or search engines is 99% reliable. So you really don't have to create the code by yourself on a regular base just to get your beautiful Cornell notes done.
+%% ___ %%
 ___
+
 <div class="cornell-flex-row">
 <div style="width: 60ch;">
 **5. large-size:**
