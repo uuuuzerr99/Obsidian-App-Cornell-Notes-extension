@@ -2,7 +2,7 @@
 cornell-layout:
   pageSize: Letter
   margin: "2"
-  headerHeight: "14"
+  headerHeight: "13"
   cuesWidth: "64"
   summaryHeight: "40"
   fontSize: 9pt
@@ -23,13 +23,13 @@ cornell-layout:
 
 <div class="cornell-flex-row">
 <div>**Date:**
-xx-yy-zzzz  | 
+xx-yy-zzzz
 </div>
-<div>**Class:**
-Science 101  | 
+<div>**| Class:**
+|Science 101
 </div>
-<div>**Topic:**
-Some more examples for supported markdown structures
+<div>**| Topic:**
+| Some more examples for supported markdown structures
 </div>
 </div>
 
@@ -41,13 +41,16 @@ You can create your own header style here... and delete the one above! Like this
 
 You can create/modify your own header styles too. 
 
-Top and bottom heights are limited (lower limits is 5mm):
 
 
 
-- Top-Limit up to: 80mm ~ 3.15″
+Top and bottom heights are limited (lower limits are 5mm):
+
+
+
+- Top height limit: 80mm ~ 3.15″
 	- usually used as header
-- Bottom-Limit up to: 100mm ~ 3.94″
+- Bottom height limit: 100mm ~ 3.94″
 	- usually used as summary
 
 #### Chemistry Formulas:
@@ -61,7 +64,6 @@ $\large \ce{A ->[H2O] B}$
 $\large \ce{A-B=C#D}$ chem. bonding
 
 $C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$
-
 
 
 
@@ -87,15 +89,22 @@ Tag-Pills for highlighting keywords:
 #chemistry #biology #math #topics
 
 <div class="cornell-flex-row">
-<div style="width: 22ch;">
-```mermaid|1.04
-stateDiagram-v2 
-[*] --> Promotor_Bindung : RNA-Polymerase bindet 
-Promotor_Bindung --> Transkription : DNA-Entwindung 
-Transkription --> Prä_mRNA : Elongation 
-Prä_mRNA --> Reife_mRNA : Spleissen & Capping 
-Reife_mRNA --> Translation : Export ins Zytoplasma 
-Translation --> [*] : Protein gefaltet
+<div style="width: 32ch;">
+```mermaid
+requirementDiagram
+
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
 ```
 </div>
 <div>
@@ -127,13 +136,12 @@ $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$
 ```smiles|0.55
 O=S(C1=NC=2C=C(OC(F)F)C=CC2N1)CC3=NC=CC(OC)=C3OC
 ```
-The molecular formula of Pantoprazol is created with $\LaTeX$ code and the mhchem package: $ \ce{C16H15F2N3O4S}$.
+The molecular formula of Pantoprazole is created with $\LaTeX$ code and the mhchem package: $ \ce{C16H15F2N3O4S}$. The molecule pic was made using SMILES notation code. 
+To get codes for both use a search engine with search terms: "Pantoprazole SMILES" and "Pantoprazole mhchem LaTeX". It's much faster and more accurate then to create it yourself. Copy & paste - it's done! For not so well known molecules ask your LLM.
 
-The molecule pic was generated using SMILES notation code. Simply search for "Pantoprazol molecule" online to find the code for both - no need to create it yourself. Copy & paste - it's done! For not so well known molecules ask your LLM of choice.
-
-**For beginners in bioinformatics, chemistry, biology, and medicine:** 
-You might wonder why hydrogen atoms (H) are often missing in SMILES notation? Here's the why: SMILES simplifies molecular structures by omitting atoms. While hydrogen is commonly implicit, other atoms like carbon, nitrogen, oxygen, sulfur, halogens, and even metals can also be omitted or simplified. The specific atoms that can be implicit depend on conventions used in the chemical database or software interpreting the notation. Understanding these conventions is crucial for accurately interpreting SMILES strings. Generating SMILES strings for specific molecules isn't always easy, but you can get them online from databases, search engines or you can ask a Large Language Model (LLM) to help. So you really don't have to do it by yourself.
-%% ___ %%
+**A hint for beginners in bioinformatics, chemistry, biology and medicine:** 
+Comparing the molecular formula count of atoms with the picture and SMILES code you might wonder why some atoms like hydrogen (H) or carbon atoms (C) are often missing? Here's why: SMILES simplifies molecular structures by omitting atoms. **In short, "missing atoms" in SMILES code from chemical databases and pictures are not errors – they are  simplifications based on well-defined chemical rules and conventions**. These apply to other atoms too: nitrogen, oxygen, sulfur, halogens and even metals as well. All depends on conventions used in chemical databases or software interpreting the notation. Understanding these conventions is crucial for accurately interpreting SMILES strings. Getting code online from [databases](https://pubchem.ncbi.nlm.nih.gov/#query=pantoprazole] 
+, Large Language Models (LLM's) or search engines is 99% reliable. So you really don't have to create the code by yourself on a regular base just to get your beautiful Cornell notes done.
 ___
 <div class="cornell-flex-row">
 <div style="width: 60ch;">
