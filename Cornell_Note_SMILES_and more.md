@@ -7,7 +7,7 @@ cornell-layout:
   summaryHeight: "40"
   fontSize: 9pt
   fontFamily: "'Palatino Linotype', 'Book Antiqua', Palatino, serif"
-  hideHeaders: true
+  hideHeaders: false
   solidLine: true
   textWrapping: true
   floatSide: left
@@ -137,7 +137,7 @@ O=S(C1=NC=2C=C(OC(F)F)C=CC2N1)CC3=NC=CC(OC)=C3OC
 The molecular formula of Pantoprazole: $ \ce{C16H15F2N3O4S}$ is created with $\LaTeX$ code. The molecule picture was made using SMILES notation code. 
 To get codes for both use a search engine with terms: "Pantoprazole SMILES" and "Pantoprazole mhchem LaTeX". It's much faster and more accurate then to create it yourself. Copy & paste - it's done! For not so well known molecules ask an LLM to generate it.
 **A hint for beginners in bioinformatics, chemistry, biology and medicine:** 
-Counting atoms in molecular formula and comparing numbers within SMILES pics and code you might ask: Why are atoms like hydrogen (H) or carbon (C) often missing? Here's why: SMILES simplifies molecular structures by omitting atoms. **In short, "missing atoms" in SMILES code from chemical databases and pictures are not errors – they are  simplifications based on well-defined chemical rules and conventions**. These apply to other atoms too: nitrogen, oxygen, sulfur, halogens and even metals as well. All depends on conventions used in chemical databases or software interpreting the notation. Without support, knowing these conventions would be crucial for accurately interpreting or creating SMILES strings. But getting the code online from [databases](https://pubchem.ncbi.nlm.nih.gov/#query=pantoprazole), AI (LLM's) or search engines is 99% reliable. So even as an early stage student, middle schooler or interested noob you might not be familiar with those rules, but you can still get your beautiful Cornell notes done.
+Counting atoms in molecular formula and comparing numbers within SMILES pics and code you might ask: Why are atoms like hydrogen (H) or carbon (C) often missing? Here's why: SMILES simplifies molecular structures by omitting atoms. **In short, "missing atoms" in SMILES code from chemical databases and pictures are not errors – they are  simplifications based on well-defined chemical rules and conventions**. These apply to other atoms too: nitrogen, oxygen, sulfur, halogens and even metals as well. All depends on conventions used in chemical databases or software interpreting the notation. Without support, knowing these conventions would be crucial for accurately interpreting or creating SMILES strings. But getting the code online from [databases](https://pubchem.ncbi.nlm.nih.gov/#query=pantoprazole), AI (LLM's) or search engines is 99% reliable. So even as an early stage student, middle schooler or interested newbie you might not be familiar with those rules, but you can still get your beautiful Cornell notes done.
 %% ___ %%
 ___
 
