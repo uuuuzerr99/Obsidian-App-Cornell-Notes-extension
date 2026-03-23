@@ -9,6 +9,8 @@ Cornell Notes plugin for Obsidian App
 
 <img width="1538" height="992" alt="grafik" src="https://github.com/user-attachments/assets/3bba1972-7d3e-48e3-a657-59af9c4076ca" />
 
+
+
 **User Scenario: That makes complex real-time note taking for average skilled students possible, if not even fun!**
 
 AI Support for generating all kinds of plots: You sit in a math lecture copy-write write short, messy notes when your teacher is drawing and explaining to the class how vector addition works on the board. You just select your messy text and send it to an AI via shortcut. Some seconds later it appears as code in your .md note file as an svg, you scale it and it's done! Usually you would struggle taking notes in real-time on your laptop in a class, even wasting more time after class at home, just to get your notes done?!? Not anymore...  
