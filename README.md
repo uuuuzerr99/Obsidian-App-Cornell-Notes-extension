@@ -9,9 +9,8 @@ Cornell Notes plugin for Obsidian App
 
 <img width="1538" height="992" alt="grafik" src="https://github.com/user-attachments/assets/3bba1972-7d3e-48e3-a657-59af9c4076ca" />
 
-
-
 **User Scenario: That makes complex real-time note taking for average skilled students possible, if not even fun!**
+
   AI Support for generating all kinds of plots: You sit in a math lecture copy-write write short, messy notes when your teacher is drawing and explaining to the class how vector addition works on the board. You just select your messy text and send it to an AI via shortcut. Some seconds later it appears as code in your .md note file as an svg, you scale it and it's done! Usually you would struggle taking notes in real-time on your laptop in a class, even wasting more time after class at home, just to get your notes done?!? Not anymore...  
 ![Animation3](https://github.com/user-attachments/assets/91488ffc-4ab3-413a-b64c-8bdf85459b3f)
 The quality and duration for appearance varies quite a bit (this one needed 35 seconds to see the result), depends on the model and if it's free or not. I've tested it via openrouter API (which is for free) and for a paid model Google Gemini Pro too (but choose the smaller model gemini-2.5-flash for generating some of the .svg) - both works! As you can see in the Animation3.gif, there are other short, messy prompts (in German as I'm living in Switzerland) I've been testing: Inequalities, Solution Sets, quadratic and cubic equations... so far. You can use your local language too, like german, french, italian, english or whatever...
