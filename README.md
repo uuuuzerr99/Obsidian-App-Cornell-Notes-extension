@@ -55,7 +55,7 @@ I'm integrating offline mode for this plugin, that's why four JavaScript librari
 
 JavaScript LIBRARIES:
 
-- Mermaid: (v10.9.1) https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js save as: mermaid.min.js (or as _mermaid.min.js in Anki: needed for Anki export feature!)
+- Mermaid: (v11.13.0) https://unpkg.com/mermaid@11.13.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
 - Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
   | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
@@ -79,4 +79,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, March 23rd 2026
+Switzerland, March 26th 2026
