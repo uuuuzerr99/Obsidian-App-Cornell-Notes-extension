@@ -4,6 +4,7 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 Actively under construction:
 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
+- I'm still working on a few features - after all, there has to be something mysterious left to reveal! (ok my health isn't the best, so I need to take a timeout from time to time... but there'll still be some exiting things to come!)
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
@@ -79,4 +80,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, March 26th 2026
+Switzerland, April 8th 2026
