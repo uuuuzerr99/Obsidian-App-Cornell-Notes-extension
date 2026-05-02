@@ -56,8 +56,9 @@ INSTALLATION:
 I'm integrating offline mode for this plugin, that's why four JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
 
 JavaScript LIBRARIES:
-
-- Mermaid: (v11.13.0) https://unpkg.com/mermaid@11.13.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
+- html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
+- Plotly: (v3.5.0) https://cdn.plot.ly/plotly-3.5.0.min.js save as: plotly.min.js
+- Mermaid: (v11.14.0) https://unpkg.com/mermaid@11.14.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
 - Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
   | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
@@ -81,4 +82,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, April 12th 2026
+Switzerland, May 2nd 2026
