@@ -4,7 +4,7 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 Actively under construction:
 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
-- I'm still working on a few features - after all, there has to be something mysterious left to reveal!
+- I freeze working on a few features - after all, there has to be something mysterious left to reveal!
 - special prompts for specific tasks to support note taking in class (e.g. for creating LaTeX Code, diagrams, math plots)
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
@@ -17,8 +17,13 @@ Cornell Notes plugin for Obsidian App
 ![Animation3](https://github.com/user-attachments/assets/91488ffc-4ab3-413a-b64c-8bdf85459b3f)
 The quality and duration for appearance varies quite a bit (this one needed 35 seconds to see the result), depends on the model and if it's free or not. I've tested it via openrouter API (which is for free) and for a paid model Google Gemini Pro too (but choose the smaller model gemini-2.5-flash for generating some of the .svg) - both works! As you can see in the Animation3.gif, there are other short, messy prompts (in German as I'm living in Switzerland) I've been testing: Inequalities, Solution Sets, quadratic and cubic equations... so far. You can use your local language too, like german, french, italian, english or whatever...
 
+Now supports Plotly: https://plotly.com/javascript/ too!
+<img width="1674" height="1027" alt="Animation4" src="https://github.com/user-attachments/assets/2e6d7d08-715b-48c1-a829-8659b01e1766" />
+
+
 FEATURES:
-- Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes. And make professionals even faster and more productive!
+- flashcard functionality: by letting parts ot the note getting blurred/unblurred. Cues are Questions and parts of the notes section might be answers. You can switch Q's and A's and recall the content in reverse: unblur Answer content first and recall the corresponding Cues. Combine it with https://www.obsidianstats.com/plugins/obsidian-recall to use it as a .md file based full spaced repetition tool, where you can switch spaced repettion algos too...
+- Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes with AI. And make professionals even faster and more productive!
 - dark mode support
 - Zoom function: from 50% up to 100%
 - offline mode (JavaScript libraries needed!)
@@ -33,6 +38,7 @@ FEATURES:
 
 Supports: 
 - Obsidian App, Desktop version only (you may need a laptop sized screen for working with it comfortably anyway)
+- Plotly, the JavaScript Open Source Graphing Library https://plotly.com/javascript/ 
 - code blocks, with syntax highlighting for lots of programming languages
 - mhchem package and SMILES (Simplified Molecular Input Line Entry System) for chemistry
 - LaTeX for Math formula typesetting (inline too)
@@ -53,7 +59,7 @@ Supports:
 
 INSTALLATION:
 
-I'm integrating offline mode for this plugin, that's why four JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
+I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
 
 JavaScript LIBRARIES:
 - html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
@@ -82,4 +88,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, May 2nd 2026
+Switzerland, May 7nd 2026
