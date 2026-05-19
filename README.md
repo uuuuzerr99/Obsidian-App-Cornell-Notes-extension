@@ -1,11 +1,10 @@
 Cornell Notes plugin for Obsidian App
 
 
-**Development Status**: 🚧 Actively under construction:
+**Development Status**: 🚧 Actively under code review:
 
 - not tried to use it on a tablet yet (so mobile App version might be developed too)
 - I've run out of ideas on new features - after all, there has to be a time to publish things!
-- special prompts for specific tasks to support note taking in class (e.g. for creating LaTeX Code, diagrams, math plots)
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
@@ -13,16 +12,18 @@ Cornell Notes plugin for Obsidian App
 
 **User Scenario: That makes complex real-time note taking for average skilled students possible, if not even fun!**
 
-  AI Support for generating all kinds of plots: You're sitting in a math lecture, jotting down short, messy notes of what your teacher is writing on the board as he explains to the class how vector addition works. You just select your messy text and send it to an AI via shortcut. Some seconds later it appears as code in your .md note file as an svg, you scale it and it's done! Usually you would struggle taking notes in real-time on your laptop in a class, even wasting more time after class at home, just to get your notes done?!? Not anymore...  
+AI Support for generating all kinds of plots: You're sitting in a math lecture, jotting down short, messy notes of what your teacher is writing on the board as he explains to the class how vector addition works. You just select your messy text and send it to an AI via shortcut. Some seconds later it appears as code in your .md note file as an svg, you scale it and it's done! Usually you would struggle taking notes in real-time on your laptop in a class, even wasting more time after class at home, just to get your notes done?!? Not anymore...  
 ![Animation3](https://github.com/user-attachments/assets/91488ffc-4ab3-413a-b64c-8bdf85459b3f)
-The quality and duration for appearance varies quite a bit (this one needed 35 seconds to see the result), depends on the model and if it's free or not. I've tested it via openrouter API (which is for free) and for a paid model Google Gemini Pro too (but choose the smaller model gemini-2.5-flash for generating some of the .svg) - both works! As you can see in the Animation3.gif, there are other short, messy prompts (in German as I'm living in Switzerland) I've been testing: Inequalities, Solution Sets, quadratic and cubic equations... so far. You can use your local language too, like german, french, italian, english or whatever...
+The quality and duration for appearance varies quite a bit (this one needed 35 seconds to see the result), depends on the model and if it's free or not. I've tested it via openrouter API (which is for free - Update: not anymore!) and for a paid model Google Gemini Pro too (but choose the smaller model gemini-2.5-flash for generating some of the .svg) - both works! As you can see in the Animation3.gif, there are other short, messy prompts (in German as I'm living in Switzerland) I've been testing: Inequalities, quadratic and cubic equations... so far. You can use your local language too, like german, french, italian, english or whatever... the LLM therefore has to be trained on the corresponding language as a prerequisite or has to translate it internally.
 
 Now supports Plotly: https://plotly.com/javascript/ too!
 <img width="1674" height="1027" alt="Animation4" src="https://github.com/user-attachments/assets/2e6d7d08-715b-48c1-a829-8659b01e1766" />
 
 
 FEATURES:
+- AI Support for plots and flashcards: with local (Ollama and others) or cloudbased providers (Google, Anthropic, whatever...) and different models with different sizes (smallest, tested with good results is gemma4:e4b so far).
 - flashcard functionality: by letting parts ot the note getting blurred/unblurred. Cues are Questions and parts of the notes section might be answers. You can switch Q's and A's and recall the content in reverse: unblur Answer content first and recall the corresponding Cues. Combine it with https://www.obsidianstats.com/plugins/obsidian-recall to use it as a .md file based full spaced repetition tool, where you can switch spaced repettion algos too...
+- special prompts for specific tasks to support note taking in class (e.g. for creating LaTeX Code, diagrams, math plots)
 - Support students with low level or even no LaTeX and SMILES skills (Middle Schoolers or Junior High Schoolers) to create formula and special syntax in and for their Cornell Notes with AI. And make professionals even faster and more productive!
 - dark mode support
 - Zoom function: from 50% up to 100%
@@ -32,7 +33,7 @@ FEATURES:
 - auto save settings (auto generated YAML front matter written into the .md file) for individual notes
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 - cues content: more control of vertical positioning (alignment with corresponding notes content)
-- possibility to create columns: usecase → sometimes you want or need 2 or 3 objects next to each other (text, code, picture or other types of content) and control the width to your needs too.
+- possibility to create columns: usecase → sometimes you want or need 2 or 3, 4... objects next to each other (text, code, picture or other types of content) and control the width to your needs too.
 - Typographie: font sizes, fonts, justified text, wrap content, text floating left or right.
 - page formats: portrait only
 
@@ -53,7 +54,7 @@ Supports:
 - callout boxes, custom: able to modify Title & color (Hex color notation: #FF0000 is red) https://www.color-hex.com/ > [!custom|#FF0000] My callout heading
 - citation box
 - Tag Pills
-- Anki Export function: 
+- Anki Export function: You can create and export flashcards to Anki as soon as you wrap content into Q&A Tags... you select the content by mouse or cursor and use the shortcut, you're done! One more shortcut and .ris file is created, ready to import to Anki.
 - Zotero Export function: You don’t want to double the effort importing tag-pills you already created in Obsidian PDF Cornell notes while importing it in Zotero — especially when you want your collection of Cornell Note files to be stored in zotero and need those Tags for future searches? Automate it: import a .ris entry (with file_title.md, author, Tags, date) into Zotero with a single shortcut, then attach the Obsidian plugin created .pdf file. Needs seconds, instead of minutes. This workaround is useful, as Zotero doesn’t allow imports of tags from keyword tagged .pdf files.
 
 
@@ -88,4 +89,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, May 7nd 2026
+Switzerland, May 19th 2026
