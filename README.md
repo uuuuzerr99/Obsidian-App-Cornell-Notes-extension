@@ -54,7 +54,7 @@ Supports:
 - callout boxes, custom: able to modify Title & color (Hex color notation: #FF0000 is red) https://www.color-hex.com/ > [!custom|#FF0000] My callout heading
 - citation box
 - Tag Pills
-- Anki Export function: You can create and export flashcards to Anki as soon as you wrap content into Q&A Tags... you select the content by mouse or cursor and use the shortcut, you're done! One more shortcut and .ris file is created, ready to import to Anki. And as a bonus: you can use your A&Q tagged content as a flashcard in the plugin too... it could be blurred and unblurred in the page view mode!
+- Anki Export function: You can create and export flashcards to Anki as soon as you wrap content into Q&A Tags... you select the content by mouse or cursor and use the shortcut, you're done! One more shortcut and .ris file is created, ready to import to Zotero. And as a bonus: you can use your A&Q tagged content as a flashcard in the plugin too... it could be blurred and unblurred in the page view mode!
 - Zotero Export function: You don’t want to double the effort importing tag-pills you already created in Obsidian PDF Cornell notes while importing it in Zotero — especially when you want your collection of Cornell Note files to be stored in zotero and need those Tags for future searches? Automate it: import a .ris entry (with file_title.md, author, Tags, date) into Zotero with a single shortcut, then attach the Obsidian plugin created .pdf file. Needs seconds, instead of minutes. This workaround is useful, as Zotero doesn’t allow imports of tags from keyword tagged .pdf files.
 
 
