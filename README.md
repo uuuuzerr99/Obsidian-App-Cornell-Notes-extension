@@ -21,6 +21,7 @@ Now supports Plotly: https://plotly.com/javascript/ too!
 
 
 FEATURES:
+- Update functionality
 - AI Support for plots and flashcards: with local (Ollama and others) or cloudbased providers (Google, Anthropic, whatever...) and different models with different sizes (smallest, tested with good results is gemma4:e4b so far).
 - flashcard functionality: by letting parts ot the note getting blurred/unblurred. Cues are Questions and parts of the notes section might be answers. You can switch Q's and A's and recall the content in reverse: unblur Answer content first and recall the corresponding Cues. Combine it with https://www.obsidianstats.com/plugins/obsidian-recall to use it as a .md file based full spaced repetition tool, where you can switch spaced repettion algos too...
 - special prompts for specific tasks to support note taking in class (e.g. for creating LaTeX Code, diagrams, math plots)
@@ -89,4 +90,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, May 19th 2026
+Switzerland, June 14th 2026
