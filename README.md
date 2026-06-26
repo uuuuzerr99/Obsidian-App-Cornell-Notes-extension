@@ -65,8 +65,8 @@ I'm integrating offline mode for this plugin, that's why six JavaScript librarie
 
 JavaScript LIBRARIES:
 - html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
-- Plotly: (v3.5.0) https://cdn.plot.ly/plotly-3.5.0.min.js save as: plotly.min.js
-- Mermaid: (v11.14.0) https://unpkg.com/mermaid@11.14.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
+- Plotly: (v3.5.0) https://cdn.plot.ly/plotly-3.6.0.min.js save as: plotly.min.js
+- Mermaid: (v11.14.0) https://unpkg.com/mermaid@11.16.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
 - Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
   | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
@@ -90,4 +90,4 @@ Images:
 All sample images have been generated with my prompts by Gemini AI.
 
 
-Switzerland, June 14th 2026
+Switzerland, June 26th 2026
