@@ -1,10 +1,10 @@
 Cornell Notes plugin for Obsidian App
 
 
-**Development Status**: 🚧 Actively under code review:
+**Development Status**: 🚧 review finished:
 
-- not tried to use it on a tablet yet (so mobile App version might be developed too)
-- I've run out of ideas on new features - after all, there has to be a time to publish things!
+- not tried to use it on a tablet yet (No extra mobile App version, desktop only because of usability with split screen mode!)
+- after all, there has to be a time to publish things!
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
@@ -61,7 +61,7 @@ Supports:
 
 INSTALLATION:
 
-I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "cornell-notes". 
+I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "corne-notes". 
 
 JavaScript LIBRARIES:
 - html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
@@ -86,8 +86,7 @@ Export to .pdf with textlayer (via .html and print to .pdf) and without textlaye
 Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
 
-Images:
-All sample images have been generated with my prompts by Gemini AI.
 
+Switzerland, July 15th 2026
 
-Switzerland, June 26th 2026
+visit: https://www.core-notes.com
