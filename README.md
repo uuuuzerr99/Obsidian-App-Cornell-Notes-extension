@@ -35,7 +35,7 @@ FEATURES:
 - export to .pdf files, with textlayer (via .html file and Browser) and without textlayer
 - cues content: more control of vertical positioning (alignment with corresponding notes content)
 - possibility to create columns: usecase → sometimes you want or need 2 or 3, 4... objects next to each other (text, code, picture or other types of content) and control the width to your needs too.
-- Typographie: font sizes, fonts, justified text, wrap content, text floating left or right.
+- Typography: font sizes, fonts, justified text, wrap content, text floating left or right.
 - page formats: portrait only
 
 Supports: 
@@ -61,7 +61,7 @@ Supports:
 
 INSTALLATION:
 
-I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "corne-notes". 
+I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "core-notes". 
 
 JavaScript LIBRARIES:
 - html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
