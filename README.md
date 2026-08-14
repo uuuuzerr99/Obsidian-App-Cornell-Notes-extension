@@ -4,7 +4,7 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 review finished:
 
 - not tried to use it on a tablet yet (No extra mobile App version, desktop only because of usability with split screen mode!)
-- after all, there has to be a time to publish things!
+- NEW: working on integration of ![cytoscape.js](https://js.cytoscape.org/) for better graph drawing capabilities in graph theory.
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
@@ -65,8 +65,8 @@ I'm integrating offline mode for this plugin, that's why six JavaScript librarie
 
 JavaScript LIBRARIES:
 - html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
-- Plotly: (v3.6.0) https://cdn.plot.ly/plotly-3.6.0.min.js save as: plotly.min.js
-- Mermaid: (v11.16.0) https://unpkg.com/mermaid@11.16.0/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
+- Plotly: (v3.7.0) https://cdn.plot.ly/plotly-3.7.0.min.js save as: plotly.min.js
+- Mermaid: (v11.16.1) https://unpkg.com/mermaid@11.16.1/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
 - MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
 - Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
   | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
@@ -87,6 +87,6 @@ Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
 
 
-Switzerland, July 15th 2026
+Switzerland, August 14th 2026
 
 visit: https://www.core-notes.com
