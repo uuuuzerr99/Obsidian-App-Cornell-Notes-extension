@@ -4,7 +4,7 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 review finished:
 
 - not tried to use it on a tablet yet (No extra mobile App version, desktop only because of usability with split screen mode!)
-- NEW: working on integration of ![cytoscape.js](https://js.cytoscape.org/) for better graph drawing capabilities in graph theory. It seems to work, but there is a lot of testing needed. Now it just shows the graphs and the Code is much smaller than with the SVG and XML combination. There'll be also more functionality added, like movable nodes and different graph types will be natively supported.
+- NEW: working on integration of cytoscape.js https://js.cytoscape.org/ for better graph drawing capabilities in graph theory. It seems to work, but there is a lot of testing needed. Now it just shows the graphs and the Code is much smaller than with the SVG and XML combination. There'll be also more functionality added, like movable nodes and different graph types will be natively supported.
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
