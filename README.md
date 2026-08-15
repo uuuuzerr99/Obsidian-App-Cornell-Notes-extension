@@ -4,7 +4,7 @@ Cornell Notes plugin for Obsidian App
 **Development Status**: 🚧 review finished:
 
 - not tried to use it on a tablet yet (No extra mobile App version, desktop only because of usability with split screen mode!)
-- NEW: working on integration of ![cytoscape.js](https://js.cytoscape.org/) for better graph drawing capabilities in graph theory.
+- NEW: working on integration of ![cytoscape.js](https://js.cytoscape.org/) for better graph drawing capabilities in graph theory. It seems to work, but there is a lot of testing needed. Now it just shows the graphs and the Code is much smaller than with the SVG and XML combination. There'll be also more functionality added, like movable nodes and different graph types will be natively supported.
 
 ⚠️ Don't use .pdf viewer of your browser to view the .pdf files above (if you want to see true graphic capabilites of this plugin)... Browser PDF viewers often make PDFs look bad because they prioritize fast loading and basic viewing over high-fidelity rendering, often using low-resolution previews to save memory. With a standard pdf viewer it looks crisp & clear & beautiful! 
 
@@ -21,7 +21,7 @@ Now supports Plotly: https://plotly.com/javascript/ too!
 
 
 FEATURES:
-- Update functionality
+- Update functionality: If you write in the .md split view window and change something like text, the content in the page view window gets updated and you jump right to the section you changed something.
 - AI Support for plots and flashcards: with local (Ollama and others) or cloudbased providers (Google, Anthropic, whatever...) and different models with different sizes (smallest, tested with good results is gemma4:e4b so far).
 - flashcard functionality: by letting parts ot the note getting blurred/unblurred. Cues are Questions and parts of the notes section might be answers. You can switch Q's and A's and recall the content in reverse: unblur Answer content first and recall the corresponding Cues. Combine it with https://www.obsidianstats.com/plugins/obsidian-recall to use it as a .md file based full spaced repetition tool, where you can switch spaced repettion algos too...
 - special prompts for specific tasks to support note taking in class (e.g. for creating LaTeX Code, diagrams, math plots)
@@ -57,20 +57,22 @@ Supports:
 - Tag Pills
 - Anki Export function: You can create and export flashcards to Anki as soon as you wrap content into Q&A Tags... you select the content by mouse or cursor and use the shortcut, you're done! One more shortcut and .ris file is created, ready to import to Zotero. And as a bonus: you can use your A&Q tagged content as a flashcard in the plugin too... it could be blurred and unblurred in the page view mode!
 - Zotero Export function: You don’t want to double the effort importing tag-pills you already created in Obsidian PDF Cornell notes while importing it in Zotero — especially when you want your collection of Cornell Note files to be stored in zotero and need those Tags for future searches? Automate it: import a .ris entry (with file_title.md, author, Tags, date) into Zotero with a single shortcut, then attach the Obsidian plugin created .pdf file. Needs seconds, instead of minutes. This workaround is useful, as Zotero doesn’t allow imports of tags from keyword tagged .pdf files.
+- NEW: cytoscape.js is a graphics library for graphs with built-in layout options. Such as: circle or cose: A physics simulation layout (Compound Spring Embedder) ideal for ordinary and compound (nested) graphs.
 
 
 INSTALLATION:
 
 I'm integrating offline mode for this plugin, that's why six JavaScript libraries have to be downloaded so far. You put them in the Obsidian App plugins folder structure (where all the other plugins are), into a plugin folder named "core-notes". 
 
-JavaScript LIBRARIES:
-- html2canvas: (v1.4.1) https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
-- Plotly: (v3.7.0) https://cdn.plot.ly/plotly-3.7.0.min.js save as: plotly.min.js
-- Mermaid: (v11.16.1) https://unpkg.com/mermaid@11.16.1/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
-- MathJax: (v3.2.2 - tex-svg-full) https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
-- Smiles Drawer: (v2.1.7) https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
+supported JavaScript LIBRARIES:
+- html2canvas (v1.4.1): https://github.com/niklasvh/html2canvas/releases html2canvas.min.js save as: html2canvas.min.js
+- Plotly (v3.7.0): https://cdn.plot.ly/plotly-3.7.0.min.js save as: plotly.min.js
+- Mermaid (v11.16.1): https://unpkg.com/mermaid@11.16.1/dist/mermaid.min.js save as: mermaid.min.js (needed for Anki export feature!)
+- MathJax (v3.2.2 - tex-svg-full): https://unpkg.com/mathjax@3.2.2/es5/tex-svg-full.js save as: mathjax.min.js
+- Smiles Drawer (v2.1.7): https://unpkg.com/smiles-drawer@2.1.7/dist/smiles-drawer.min.js save as: smiles-drawer.min.js 
   | Note: Standard SMILES is designed for compactness and often omits hydrogens. For full atom representation, use explicit hydrogen SMILES library (downloadable from my repo) or isomeric SMILES with detailed formatting.
-- Prism: (v1.29.0) https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
+- Prism (v1.29.0): https://unpkg.com/prismjs@1.29.0/prism.js save as: prism.min.js
+- NEW: Cytoscape (v3.34.1): https://unpkg.com/cytoscape@3.34.1/dist/cytoscape.min.js save as: cytoscape.min.js
 
 good to know:
 Different builds/distributions of libraries often include unique configurations. Prism library for example is used for syntax highlighting code blocks in different programming languages like Java, C, etc. - so some languages might not be inclued in the basic version of the library. But you can configure and download them on this or other websites:
@@ -86,7 +88,10 @@ Export to .pdf with textlayer (via .html and print to .pdf) and without textlaye
 Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
 
+Integration of cytoscape.js is on the way... 
+<img width="1638" height="465" alt="grafik" src="https://github.com/user-attachments/assets/b370ffe0-0717-4b45-af5b-e6b2cf6660f5" />
 
-Switzerland, August 14th 2026
+
+Switzerland, August 15th 2026
 
 visit: https://www.core-notes.com
