@@ -89,7 +89,6 @@ Obsidian (light mode) with plugin dark mode:
 ![screenshot 752](https://github.com/user-attachments/assets/3fd4f31d-5643-4f1f-a295-6e1d7a6bbf0a)
 
 Integration of cytoscape.js is finished... 
-<img width="1638" height="465" alt="grafik" src="https://github.com/user-attachments/assets/b370ffe0-0717-4b45-af5b-e6b2cf6660f5" />
 <img width="1638" height="465" alt="grafik" src="https://github.com/uuuuzerr99/Obsidian-App-Cornell-Notes-extension/blob/main/Cytoscape2.gif" />
 
 
